@@ -1,0 +1,134 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A sliding Testimonials</title>
+    <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>   
+    <section>
+        <div class="desc">
+            <h2>Testimonials</h2>
+        </div>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <div class="testimonialBox">
+                     <img src="/image/quote.png" alt="" class="quote" style="width: 50px;">
+                      <div class="content">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                              Sunt optio neque voluptatum necessitatibus minus, rem pariatur facere ad, 
+                              itaque debitis ullam odio dolores ipsum deleniti 
+                              praesentium impedit illo laborum libero!</p>
+                              <div class="details">
+                                <div class="imgBx">
+                                    <img src="/image/user3.jpg" alt="">
+                                </div>
+                                <h3>Someone Famous <br> <span>Sengal Sengal</span></h1>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+
+
+              <div class="swiper-slide">
+                <div class="testimonialBox">
+                   <img src="/image/quote.png" alt="" class="quote" style="width: 50px;">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Sunt optio neque voluptatum necessitatibus minus, rem pariatur facere ad, 
+                            itaque debitis ullam odio dolores ipsum deleniti 
+                            praesentium impedit illo laborum libero!</p>
+                            <div class="details">
+                              <div class="imgBx">
+                                  <img src="/image/user1.jpg" alt="">
+                              </div>
+                              <h3>Someone Famous <br> <span>Sengal Sengal</span></h1>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide">
+                <div class="testimonialBox">
+                   <img src="/image/quote.png" alt="" class="quote" style="width: 50px;">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Sunt optio neque voluptatum necessitatibus minus, rem pariatur facere ad, 
+                            itaque debitis ullam odio dolores ipsum deleniti 
+                            praesentium impedit illo laborum libero!</p>
+                            <div class="details">
+                              <div class="imgBx">
+                                  <img src="/image/user2.jpg" alt="">
+                              </div>
+                              <h3>Someone Famous <br> <span>Sengal Sengal</span></h1>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="testimonialBox">
+                   <img src="/image/quote.png" alt="" class="quote" style="width: 50px;">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Sunt optio neque voluptatum necessitatibus minus, rem pariatur facere ad, 
+                            itaque debitis ullam odio dolores ipsum deleniti 
+                            praesentium impedit illo laborum libero!</p>
+                            <div class="details">
+                              <div class="imgBx">
+                                  <img src="/image/user4.jpg" alt="">
+                              </div>
+                              <h3>Someone Famous <br> <span>Sengal Sengal</span></h1>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide">
+                <div class="testimonialBox">
+                   <img src="/image/quote.png" alt="" class="quote" style="width: 50px;">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Sunt optio neque voluptatum necessitatibus minus, rem pariatur facere ad, 
+                            itaque debitis ullam odio dolores ipsum deleniti 
+                            praesentium impedit illo laborum libero!</p>
+                            <div class="details">
+                              <div class="imgBx">
+                                  <img src="/image/user5.jpg" alt="">
+                              </div>
+                              <h3>Someone Famous <br> <span>Sengal Sengal</span></h1>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper', {
+          effect: 'coverflow',
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 100,
+            modifier: 2,
+            slideShadows: true,
+          },
+          loop: true,
+        });
+      </script>
+</body>
+</html>
